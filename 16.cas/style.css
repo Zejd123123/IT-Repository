@@ -1,0 +1,23 @@
+.maincontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputtt{
+    width: 30%%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    height: 100%;
+    color: gray;
+    border-radius: 5vh;
+
+}

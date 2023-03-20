@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+.mainContainer{
+    width: 100%;
+    height: 110vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Card{
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: solid gray 2px;
+}
+.top{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+.bot{
+    width: 90%;
+    height: 50%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    color: white;
+    border-radius: 50%;
+    
+}
+.bot h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bot h2{
+    font-size: 23px;
+    font-weight: lighter;
+}

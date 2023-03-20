@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 0;">
+    <style>
+        #headerContainer{
+            width: 100%;
+            height: 50px;
+            background-color: blue;
+            text-align: center;
+
+        }
+        #headerContainer span{
+            font-size: 30px;
+            color: red;
+        }
+        .mainContainer{
+            font-size: 45px;
+        }
+        .mainContainer label{
+            font-size: 40px;
+
+        }
+        .mainContainer input{
+            width: 30%;
+            height: 100px;
+            
+        }
+        .mainContainer button{
+            width: 35%;
+            height: 120px;
+        }
+        .mainContainer ::placeholder{
+            color: gray;
+            font-size: 35px;
+        }
+        .mainContainer button{
+            color: white;
+            font-size: 35px;
+            background-color: red;
+            margin-top: 20px;
+            border: 2px solid greenyellow;
+        }
+        
+
+    </style>
+    <header>
+        <div id="headerContainer">
+            <span>Registracija</span>
+
+        </div>
+    </header>
+    <main>
+        <div class="mainContainer">
+            <h1>Unesite vase podatke</h1>
+            <form>
+                <label >Ime</label> <br>
+                <input type="text" placeholder="unesite vase ime"><br>
+                <label >Prezime</label> <br>
+                <input type="text" placeholder="unesite vase prezime"><br>
+                <label >Broj</label><br>
+                <input type="number"><br>
+                <label >Email</label><br>
+                <input type="text" placeholder="unesite vas email"><br>
+                <label >Datum Rodjenja</label><br>
+                <input type= "date"><br>
+                <button id="mojBtn">Registruj se</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
